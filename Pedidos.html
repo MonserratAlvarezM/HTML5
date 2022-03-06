@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake-Plop</title>
+
+<style>
+    h1 {
+        font-family: fantasy;
+        color: rgba(54, 13, 54, 0.938);
+    }
+
+    h2 {
+        font-family: fantasy;
+        color: rgba(109, 41, 86, 0.877);
+    }
+
+
+    p {
+        font-size: 16px;
+        font-family: fantasy;
+        color: rgb(35, 21, 63);
+    }
+
+</style>
+</head>
+<body>
+
+    <body background="./Fondo.jpg" ></body>
+    
+
+    <div align="left">
+        <a href="Inicio.html">Inicio</a>
+        <a href="Pedidos.html">Haz tu pedido</a>
+        <a href="Reservas.html">Pedidos</a>
+        <a href="Contacto.html">Contactanos</a></div>
+
+    <div align="center"> 
+        <img src="./Logo.png" alt="Banner" border="0" width="200px" style="border:0px solid rgb(23, 4, 26)">
+    </div>
+
+    <div align="center">
+        <h1>Para armar tu pedido necesitamos tus datos: 
+        </h1>
+        </div><br><br>
+
+    <div>
+        <label for="fullname">Nombre completo</label>
+        <input type="text" name="fullname" id="fullname" class="datos" required>
+    </div><br><br>
+
+    <div>
+        <label for="direccion">Dirección</label>
+        <input type="text" name="direccion" id="direccion" class="datos" required>
+    </div><br><br>
+
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" class="datos" required>
+    </div><br><br>
+
+    <div>
+        <label for="telefono">Celular</label>
+        <input type="tel" name="telefono" id="telefono" class="datos" required>
+    </div><br><br>
+
+
+    <div>
+        <label for="entrega">Para cuando lo necesitas</label>
+        <input type="datetime-local" name="entrega" id="entrega" class="datos" required>
+    </div><br><br>
+
+
+    <div class="block">
+        <label for="descripcion">Explicanos como quieres tu pastel</label>
+        <textarea name="descripcion" id="descripcion" rows="3"></textarea>
+    </div><br><br><br>
+
+    <h2 class="titulo block">Sabores</h2>
+    <div>
+        <input type="checkbox" name="pastel-Chocolate" id="Chocolate" value="pastel-Chocolate">
+        <label for="Chocolate">Chocolate</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="pastel-vainilla" id="vainilla" value="pastel-vainilla">
+        <label for="vainilla">Vainilla</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="pastel-fresa" id="fresa" value="pastel-fresa">
+        <label for="fresa">Fresa</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="pastel-Paydelimon" id="limon" value="pastel-Paydelimon">
+        <label for="limon">Pay de Limón</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="pastel-cafe" id="cafe" value="pastel-cafe">
+        <label for="cafe">Café</label>
+    </div><br><br>
+
+
+    <h2 class="titulo block">Decoración</h2>
+    <div>
+        <input type="checkbox" name="deco-betun" id="Betun" value="betun">
+        <label for="Betun">Betún</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="deco-Granillo" id="Granillo" value="Granillo">
+        <label for="Granillo">Granillo</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="deco-Fondan" id="Fondan" value="Fondan">
+        <label for="Fondan">Fondan</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="deco-Chocolate" id="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolates</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="deco-Flores" id="Flores" value="Flores">
+        <label for="Flores">Flores Comestibles</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="deco-licor" id="licor" value="licor">
+        <label for="licor">Botellita de Licor</label>
+    </div><br><br><br>
+
+    <div align="Center">
+        <button type="submit">Hacer Pedido</button>
+    </div><br><br>
+
+    <div align="left">
+        <button type="reset">Cancelar</button>
+    </div><br><br><br><br>
+
+    <div align="center">
+    <h4 class="titulo block">Todos los pedidos deberán contar con mínimo 24 hrs de anticipación</h4>
+    </div>
